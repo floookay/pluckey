@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L keebio:USB-Mini J1
 U 1 1 60852385
-P 1700 1900
-F 0 "J1" H 1683 2597 60  0000 C CNN
-F 1 "USB-Mini" H 1683 2491 60  0000 C CNN
-F 2 "Keebio-Parts:USB-Mini-B_2leg" H 1650 1950 60  0001 C CNN
-F 3 "" H 1650 1950 60  0001 C CNN
-	1    1700 1900
+P 1150 2100
+F 0 "J1" H 1133 2797 60  0000 C CNN
+F 1 "USB-Mini" H 1133 2691 60  0000 C CNN
+F 2 "Keebio-Parts:USB-Mini-B_2leg" H 1100 2150 60  0001 C CNN
+F 3 "" H 1100 2150 60  0001 C CNN
+	1    1150 2100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1043,15 +1043,11 @@ col4
 Text HLabel 8550 4900 0    50   Input ~ 0
 col5
 Text HLabel 8550 5000 0    50   Input ~ 0
-col6
-Text HLabel 9950 4800 2    50   Input ~ 0
 row0
-Text HLabel 9950 4900 2    50   Input ~ 0
+Text HLabel 9950 4500 2    50   Input ~ 0
 row1
-Text HLabel 9950 5000 2    50   Input ~ 0
+Text HLabel 9950 4600 2    50   Input ~ 0
 row2
-Text HLabel 9950 5100 2    50   Input ~ 0
-row3
 Text HLabel 8550 5100 0    50   Input ~ 0
 row4
 Text HLabel 2350 3400 1    50   Input ~ 0
@@ -1082,7 +1078,7 @@ U 1 1 60852DC0
 P 9250 4550
 F 0 "U1" H 9250 5387 60  0000 C CNN
 F 1 "ProMicro" H 9250 5281 60  0000 C CNN
-F 2 "Keebio-Parts:ArduinoProMicro-ZigZag" V 10300 2050 60  0001 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro" V 10300 2050 60  0001 C CNN
 F 3 "" V 10300 2050 60  0001 C CNN
 	1    9250 4550
 	1    0    0    -1  
@@ -1117,7 +1113,7 @@ U 1 1 60978991
 P 9250 3150
 F 0 "RSW1" H 9250 3405 50  0000 C CNN
 F 1 "SW_PUSH" H 9250 3314 50  0000 C CNN
-F 2 "Keebio-Parts:SW_Tactile_SPST_Angled_MJTP1117" H 9250 3313 50  0001 C CNN
+F 2 "kbd:ResetSW" H 9250 3313 50  0001 C CNN
 F 3 "" H 9250 3150 50  0000 C CNN
 	1    9250 3150
 	1    0    0    -1  
@@ -1229,24 +1225,20 @@ Connection ~ 5950 1950
 Text HLabel 6750 1950 2    50   Input ~ 0
 data
 $Comp
-L Connector_Generic:Conn_01x04 J2
+L Connector_Generic:Conn_01x05 J2
 U 1 1 60A9C567
-P 2900 1500
-F 0 "J2" H 2980 1492 50  0000 L CNN
-F 1 "Conn_01x04" H 2980 1401 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2900 1500 50  0001 C CNN
-F 3 "~" H 2900 1500 50  0001 C CNN
-	1    2900 1500
+P 1900 1750
+F 0 "J2" H 1980 1742 50  0000 L CNN
+F 1 "Conn_01x05" H 1980 1651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1900 1750 50  0001 C CNN
+F 3 "~" H 1900 1750 50  0001 C CNN
+	1    1900 1750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2300 1850 1900 1850
-NoConn ~ 1900 1750
 NoConn ~ 8550 4000
 NoConn ~ 9950 4400
-NoConn ~ 9950 4500
-NoConn ~ 9950 4600
-NoConn ~ 9950 4700
+NoConn ~ 9950 5000
+NoConn ~ 9950 4900
 NoConn ~ 9950 4000
 $Comp
 L Mechanical:MountingHole H1
@@ -1361,28 +1353,6 @@ $EndComp
 Connection ~ 6000 5700
 Connection ~ 6000 4400
 Wire Wire Line
-	1900 1450 2650 1450
-Wire Wire Line
-	2650 1450 2650 1500
-Wire Wire Line
-	2650 1500 2700 1500
-Wire Wire Line
-	2300 1700 2700 1700
-Wire Wire Line
-	2300 1700 2300 1850
-Wire Wire Line
-	1900 1650 2400 1650
-Wire Wire Line
-	2400 1650 2400 1600
-Wire Wire Line
-	2400 1600 2700 1600
-Wire Wire Line
-	2350 1550 2350 1400
-Wire Wire Line
-	2350 1400 2700 1400
-Wire Wire Line
-	1900 1550 2350 1550
-Wire Wire Line
 	2250 4200 2250 4050
 Wire Wire Line
 	1150 4200 2250 4200
@@ -1402,4 +1372,31 @@ Wire Wire Line
 Wire Wire Line
 	1150 6150 2250 6150
 Connection ~ 2250 6000
+Wire Wire Line
+	1350 1650 1700 1650
+Wire Wire Line
+	1700 1950 1350 1950
+Wire Wire Line
+	1350 1750 1400 1750
+Wire Wire Line
+	1400 1750 1400 1550
+Wire Wire Line
+	1400 1550 1700 1550
+Wire Wire Line
+	1350 1850 1500 1850
+Wire Wire Line
+	1500 1850 1500 1750
+Wire Wire Line
+	1500 1750 1700 1750
+Wire Wire Line
+	1350 2050 1600 2050
+Wire Wire Line
+	1600 2050 1600 1850
+Wire Wire Line
+	1600 1850 1700 1850
+Text HLabel 9950 4700 2    50   Input ~ 0
+col6
+Text HLabel 9950 5100 2    50   Input ~ 0
+row3
+NoConn ~ 9950 4800
 $EndSCHEMATC
