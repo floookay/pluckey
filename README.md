@@ -5,16 +5,40 @@ I took inspiration from splitkb's Kyria and the Ergodox design.
 
 ## layouts
 
-The pcb supports the following layouts:
+The following layouts are supported:  
+![supported layouts](./assets/layouts.png)  
+[Keyboard-Layout-Editor](http://www.keyboard-layout-editor.com/#/gists/13c9d00bd0c0c9e3fe3b3d8d98672ef9) [(raw)](https://gist.github.com/floookay/13c9d00bd0c0c9e3fe3b3d8d98672ef9); &larr; todo: make public
+
 ## pcb
 
-- ortho compability (oled/rotary on vertical 1.5u keys)
-- tht mini usb
+The pcb is reversible and supports pcb mount MX style switches.  
+It was designed using KiCAD and the following external libaries: [keebio-parts](https://github.com/keebio/Keebio-Parts.pretty) and [foostans kbd library](https://github.com/foostan/kbd)  
+Fun fact: the PCB has zero vias (but 414 holes – 288 of which are plated)
+In order to assemble a pair you'll need the following hardware:
+
+| amount | part                 | description             |
+|--------|----------------------|-------------------------|
+| 66/68  | key switches         | MX style                |
+| 66/68  | diodes               | SMD or THT 1N4148(W)    |
+| 2      | mini USB ports       | MX-54819-0519           |
+| 2      | TRRS jacks           |                         |
+| 2      | tact switch          |                         |
+| 2      | pro micros           |                         |
+| 2      | micro usb connectors | or two micro usb cables |
+| 8      | short wires          |                         |
+
+Additionally I'd recommend getting a pair hotswapable headers for both pro micros. Since there is enough space below the controller you can also get the cheap bulky 2.54 headers from e.g. Aliexpress.
+
+**Assembly:**  
+Start by soldering the diodes, the headers, trrs jack and the mini usb port to the same side of the pcb. Make sure to clip the pins beforehand so they're flush on the other side.  
+Now you can align your plate and solder in the switches.  
+Plug the micro usb connector into the pro micro and align it according to the pinout on the solder mask. Depending on which headers you chose you might want to add electrical tape to the pro micro that's upside down so it doesnt touch the switch pins. Also nothe that you might have to solder on the controller at an angle if you're going with the default headers in order to be able to plug in the usb cable.  
+Solder the wires to the micro usb connector (or cut open your existing cables) and solder the other side to the port headers according to the pinout on the solder mask.
 
 ## case
 
-The case is a tray mounted design and 3d printable in two pieces: plate and case
-
+The case is a tray mounted design and 3d printable in two pieces: plate and case  
+It was designed using FreeCAD (and some SolidPython until it got too complex for me) so please feel free to configure the case to your liking. It's fairly parametric set up so depending on what you want to achieve you'll have a few starting points.
 In order to assemble the case you'll need the following additional hardware:
 
 - 4x M2 7+mm screws
@@ -22,11 +46,6 @@ In order to assemble the case you'll need the following additional hardware:
 
 **Assembly:**  
 After you soldered the PCB you can assemble the case. At first you're going to have to merge the spacers with the posts of the case. To do this heat up your soldering iron, position a spacer with a tweezer and press the spacer down with the tip of your soldering iron (make sure it's clean before this step). Do this with the other spacers, align the plate and pcb and fixate it with the screws.
-
-sometiesm
-- started with Solidpython -> FreeCAD
-- base case tented because of pro micro height
-- dimensions of this chonker
 
 ## firmware
 
@@ -39,7 +58,7 @@ One thing I wanted to improve/avoid were keys that needed to be stabilized but a
 
 Another thing I wanted to achieve with this design was to be fairly flexible in terms of keycaps that can be used.  
 Personally, I like the wider ergodox style modifier keys but keycap compability is unfortunatelly not that great.  
-That's why I made PCB compatible with just 1u keycaps that are offered in ortho keycap sets.
+That's why I made the PCB compatible with just 1u keycaps that are offered in ortho keycap sets.
 
 > What's next?
 
