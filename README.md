@@ -13,7 +13,6 @@ The following layouts are supported:
 
 The pcb is reversible and supports pcb mount MX style switches.  
 It was designed using KiCAD and the following external libaries: [keebio-parts](https://github.com/keebio/Keebio-Parts.pretty) and [foostans kbd library](https://github.com/foostan/kbd)  
-Fun fact: the PCB has zero vias (but 414 holes – 288 of which are plated)
 In order to assemble a pair you'll need the following hardware:
 
 | amount | part                 | description             |
@@ -50,6 +49,7 @@ After you soldered the PCB you can assemble the case. At first you're going to h
 ## firmware
 
 - qmk, still in the works
+
 ## misc
 
 > What where your goals behind designing this keyboard?
@@ -62,9 +62,9 @@ That's why I made the PCB compatible with just 1u keycaps that are offered in or
 
 > What's next?
 
-I'd like to add a rotary encoder in my next revision to the pcb.
-Probably under the palm or near the thumb cluster.
+More cases. Maybe one with adjustable tenting.
+I'm also playing with the thought of making a pcb variant fit for low profile Choc switches.
 
-> What's the story behind the name
+> What's the story behind the name?
 
 I named the keyboard Pluckey after one of my favorite Animal Crossing villagers „Plucky“. The first letter of the logo represents Pluckys eye.
