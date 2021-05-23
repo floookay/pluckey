@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "pluckey"
+Date "2021-05-23"
+Rev "1.1"
+Comp "floookay"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -1211,7 +1211,7 @@ U 1 1 60A9C567
 P 1900 1750
 F 0 "J2" H 1980 1742 50  0000 L CNN
 F 1 "Conn_01x05" H 1980 1651 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1900 1750 50  0001 C CNN
+F 2 "local:PinHeader_1x05_P2.54mm_Vertical" H 1900 1750 50  0001 C CNN
 F 3 "~" H 1900 1750 50  0001 C CNN
 	1    1900 1750
 	1    0    0    -1  
