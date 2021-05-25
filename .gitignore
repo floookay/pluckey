@@ -138,3 +138,6 @@ cython_debug/
 
 # Editor
 *.code-workspace
+
+# etc
+*.gcode
