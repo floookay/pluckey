@@ -26,7 +26,7 @@ In order to assemble a pair you'll need the following hardware:
 | 2      | micro usb connectors | or two micro usb cables |
 | 8      | short wires          |                         |
 
-Additionally I'd recommend getting a pair hotswapable headers for both pro micros. Since there is enough space below the controller you can also get the cheap bulky 2.54 headers from e.g. Aliexpress.
+Additionally I'd recommend getting a pair of hotswapable headers for both pro micros.
 
 **Assembly:**  
 Start by soldering the diodes, the headers, trrs jack and the mini usb port to the same side of the pcb. Make sure to clip the pins beforehand so they're flush on the other side.  
@@ -36,19 +36,28 @@ Solder the wires to the micro usb connector (or cut open your existing cables) a
 
 ## case
 
-The case is a tray mounted design and 3d printable in two pieces: plate and case  
+### monolith
+
+The monolith case is a tray mounted design and 3d printable in two pieces: case and (optional) plate  
 It was designed using FreeCAD (and some SolidPython until it got too complex for me) so please feel free to configure the case to your liking. It's fairly parametric set up so depending on what you want to achieve you'll have a few starting points.
 In order to assemble the case you'll need the following additional hardware:
 
-- 4x M2 7+mm screws
+- 4x M2 4mm screws
 - 4x M2 4mm spacers
 
 **Assembly:**  
 After you soldered the PCB you can assemble the case. At first you're going to have to merge the spacers with the posts of the case. To do this heat up your soldering iron, position a spacer with a tweezer and press the spacer down with the tip of your soldering iron (make sure it's clean before this step). Do this with the other spacers, align the plate and pcb and fixate it with the screws.
 
+### skeleton
+
+The skeleton case is a simple and open case for the pluckey pcb.  
+The FreeCAD models are included in case you want to adjust the angle for example.  
+All you need to do to assemble this case is to clip in the PCB.
+
 ## firmware
 
-- qmk, still in the works
+flash QMK from my fork [floookay/qmk_firmware](https://github.com/floookay/qmk_firmware/tree/pluckey)  
+*&rarr; I'll add it to the official repo soon™ (once I'm fully done)*
 
 ## misc
 
