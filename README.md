@@ -1,7 +1,7 @@
 ![plucky_logo](./assets/pluckey_logo.png)
 
-the plucky is an ergodox like split keyboard with a more extreme columnal stagger.  
-I took inspiration from splitkb's Kyria and the Ergodox design.
+the plucky is an ergodox like split keyboard with a more extreme columnal stagger and a vertical space key.  
+I took inspiration from splitkbs Kyria and bishborias Ergodox design.
 
 ## layouts
 
@@ -28,7 +28,7 @@ In order to assemble a pair you'll need the following hardware:
 
 Additionally I'd recommend getting a pair of hotswapable headers for both pro micros.
 
-**Assembly:**  
+**assembly:**  
 Start by soldering the diodes, the headers, trrs jack and the mini usb port to the same side of the pcb. Make sure to clip the pins beforehand so they're flush on the other side.  
 Now you can align your plate and solder in the switches.  
 Plug the micro usb connector into the pro micro and align it according to the pinout on the solder mask. Depending on which headers you chose you might want to add electrical tape to the pro micro that's upside down so it doesnt touch the switch pins. Also nothe that you might have to solder on the controller at an angle if you're going with the default headers in order to be able to plug in the usb cable.  
@@ -45,7 +45,7 @@ In order to assemble the case you'll need the following additional hardware:
 - 4x M2 4mm screws
 - 4x M2 4mm spacers
 
-**Assembly:**  
+**assembly:**  
 After you soldered the PCB you can assemble the case. At first you're going to have to merge the spacers with the posts of the case. To do this heat up your soldering iron, position a spacer with a tweezer and press the spacer down with the tip of your soldering iron (make sure it's clean before this step). Do this with the other spacers, align the plate and pcb and fixate it with the screws.
 
 ### skeleton
