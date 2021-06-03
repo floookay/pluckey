@@ -42,6 +42,8 @@ The monolith case is a tray mounted design and 3d printable in two pieces: case 
 It was designed using FreeCAD (and some SolidPython until it got too complex for me) so please feel free to configure the case to your liking. It's fairly parametric set up so depending on what you want to achieve you'll have a few starting points.
 In order to assemble the case you'll need the following additional hardware:
 
+**important:** the plate files need adjusting. The hole tolerances could use some work as well as maybe adding a clip in groove to allow thicker plates again.
+
 - 4x M2 4mm screws
 - 4x M2 4mm spacers
 
@@ -50,7 +52,7 @@ After you soldered the PCB you can assemble the case. At first you're going to h
 
 ### skeleton
 
-The skeleton case is a simple and open case for the pluckey pcb.  
+The skeleton case is a simple open case for the pluckey pcb.  
 The FreeCAD models are included in case you want to adjust the angle for example.  
 All you need to do to assemble this case is to clip in the PCB.
 
@@ -66,13 +68,13 @@ flash QMK from my fork [floookay/qmk_firmware](https://github.com/floookay/qmk_f
 One thing I wanted to improve/avoid were keys that needed to be stabilized but at the same time have a wider space key to rest your thumb on.
 
 Another thing I wanted to achieve with this design was to be fairly flexible in terms of keycaps that can be used.  
-Personally, I like the wider ergodox style modifier keys but keycap compability is unfortunatelly not that great.  
-That's why I made the PCB compatible with just 1u keycaps that are offered in ortho keycap sets.
+Personally, I like the wider ergodox style modifier keys but keycap compability is unfortunatelly not that great beyond blank uniform caps.  
+That's why I made the PCB compatible with all 1u keycaps that are offered in ortho keycap sets.
 
 > What's next?
 
-More cases. Maybe one with adjustable tenting.
-I'm also playing with the thought of making a pcb variant fit for low profile Choc switches.
+More case variants and fix the plates.
+I'm also playing with the thought of making a pcb variant fit for low profile Choc switches and move the controller so it's actually flat.
 
 > What's the story behind the name?
 
