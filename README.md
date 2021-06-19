@@ -42,8 +42,6 @@ The monolith case is a tray mounted design and 3d printable in two pieces: case 
 It was designed using FreeCAD (and some SolidPython until it got too complex for me) so please feel free to configure the case to your liking. It's fairly parametric set up so depending on what you want to achieve you'll have a few starting points.
 In order to assemble the case you'll need the following additional hardware:
 
-**important:** the plate files need adjusting. The hole tolerances could use some work as well as maybe adding a clip in groove to allow thicker plates again.
-
 | amount | part                 |
 |--------|----------------------|
 | 8      | M2 4mm screws        |
@@ -60,7 +58,8 @@ All you need to do to assemble this case is to clip in the PCB.
 
 ## plate
 
-These still need work…
+If you want to print and use a plate I'd suggest you print the tolerance tester first (and maybe decrease the tolerances a bit).  
+After you know the right margin for your printer you can adjust it in the plate model and export your plate in the desired layout.
 
 ## firmware
 
