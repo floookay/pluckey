@@ -1,4 +1,4 @@
-update=Sat May  1 10:55:38 2021
+update=Sun May 23 08:32:58 2021
 version=1
 last_client=kicad
 [general]
@@ -259,6 +259,17 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=VCC
+Clearance=0.2
+TrackWidth=0.4
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
+Name=thick_header
 Clearance=0.2
 TrackWidth=0.4
 ViaDiameter=0.8

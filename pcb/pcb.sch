@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "pluckey"
+Date "2021-05-23"
+Rev "1.1"
+Comp "floookay"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -126,13 +126,13 @@ $EndComp
 $Comp
 L Device:D D13
 U 1 1 609271B4
-P 3400 6500
-F 0 "D13" V 3446 6420 50  0000 R CNN
-F 1 "D" V 3355 6420 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" H 3400 6500 50  0001 C CNN
-F 3 "~" H 3400 6500 50  0001 C CNN
-	1    3400 6500
-	0    -1   -1   0   
+P 3400 6550
+F 0 "D13" H 3446 6470 50  0000 R CNN
+F 1 "D" H 3355 6470 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 3400 6550 50  0001 C CNN
+F 3 "~" H 3400 6550 50  0001 C CNN
+	1    3400 6550
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW22
@@ -156,8 +156,6 @@ F 3 "~" H 4050 6500 50  0001 C CNN
 	1    4050 6500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3400 6650 4050 6650
 $Comp
 L Switch:SW_Push SW27
 U 1 1 609271CA
@@ -185,23 +183,23 @@ Wire Wire Line
 $Comp
 L Switch:SW_Push SW38
 U 1 1 6092E91E
-P 6900 5700
-F 0 "SW38" H 6900 5985 50  0000 C CNN
-F 1 "SW_Push" H 6900 5894 50  0000 C CNN
-F 2 "keyswitches:SW_MX_reversible" H 6900 5900 50  0001 C CNN
-F 3 "~" H 6900 5900 50  0001 C CNN
-	1    6900 5700
+P 7100 5700
+F 0 "SW38" H 7100 5985 50  0000 C CNN
+F 1 "SW_Push" H 7100 5894 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 7100 5900 50  0001 C CNN
+F 3 "~" H 7100 5900 50  0001 C CNN
+	1    7100 5700
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D D34
 U 1 1 6092E924
-P 6700 5850
-F 0 "D34" V 6750 6050 50  0000 R CNN
-F 1 "D" V 6650 6000 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" H 6700 5850 50  0001 C CNN
-F 3 "~" H 6700 5850 50  0001 C CNN
-	1    6700 5850
+P 6900 5850
+F 0 "D34" V 6950 6050 50  0000 R CNN
+F 1 "D" V 6850 6000 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" H 6900 5850 50  0001 C CNN
+F 3 "~" H 6900 5850 50  0001 C CNN
+	1    6900 5850
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -252,7 +250,6 @@ Wire Wire Line
 	4700 6650 5550 6650
 Connection ~ 4700 6650
 Connection ~ 4050 6650
-Connection ~ 3400 6650
 Wire Wire Line
 	5550 6650 5550 6800
 Wire Wire Line
@@ -260,10 +257,6 @@ Wire Wire Line
 Connection ~ 5550 6650
 Wire Wire Line
 	4950 6350 5150 6350
-Wire Wire Line
-	5600 6250 6000 6250
-Wire Wire Line
-	6000 6250 6000 6500
 $Comp
 L Device:D D5
 U 1 1 60A25BA0
@@ -889,7 +882,7 @@ Connection ~ 5350 4050
 Connection ~ 4700 4050
 Connection ~ 4050 4050
 Wire Wire Line
-	5600 5700 5600 6250
+	5600 5700 5600 6150
 Connection ~ 5600 5700
 Wire Wire Line
 	4950 6350 4950 5700
@@ -900,21 +893,11 @@ Connection ~ 4300 5700
 Wire Wire Line
 	3650 5700 3650 6350
 Connection ~ 3650 5700
-Wire Wire Line
-	3000 6350 3000 5700
 Connection ~ 3000 5700
 Wire Wire Line
-	2350 5700 2350 6950
+	2350 5700 2350 6200
 Connection ~ 2350 5700
-Wire Wire Line
-	6700 6000 6700 6800
-Wire Wire Line
-	6700 6800 6400 6800
 Connection ~ 6400 6800
-Wire Wire Line
-	7100 6950 7100 5700
-Wire Wire Line
-	2350 6950 7100 6950
 $Comp
 L Switch:SW_Push SW1
 U 1 1 6086610F
@@ -1017,8 +1000,6 @@ Wire Wire Line
 	1550 5700 1550 5850
 Wire Wire Line
 	1550 3400 1550 3750
-Wire Wire Line
-	1150 6650 3400 6650
 Wire Wire Line
 	1700 5050 1550 5050
 Connection ~ 1550 5050
@@ -1230,15 +1211,13 @@ U 1 1 60A9C567
 P 1900 1750
 F 0 "J2" H 1980 1742 50  0000 L CNN
 F 1 "Conn_01x05" H 1980 1651 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1900 1750 50  0001 C CNN
+F 2 "local:PinHeader_1x05_P2.54mm_Vertical" H 1900 1750 50  0001 C CNN
 F 3 "~" H 1900 1750 50  0001 C CNN
 	1    1900 1750
 	1    0    0    -1  
 $EndComp
 NoConn ~ 8550 4000
 NoConn ~ 9950 4400
-NoConn ~ 9950 5000
-NoConn ~ 9950 4900
 NoConn ~ 9950 4000
 $Comp
 L Mechanical:MountingHole H1
@@ -1246,7 +1225,7 @@ U 1 1 60B09583
 P 8750 1650
 F 0 "H1" H 8850 1696 50  0000 L CNN
 F 1 "MountingHole" H 8850 1605 50  0000 L CNN
-F 2 "local:m4.5_hole" H 8750 1650 50  0001 C CNN
+F 2 "local:m2.4_hole_plated" H 8750 1650 50  0001 C CNN
 F 3 "~" H 8750 1650 50  0001 C CNN
 	1    8750 1650
 	1    0    0    -1  
@@ -1257,7 +1236,7 @@ U 1 1 60B0CED1
 P 8750 1850
 F 0 "H2" H 8850 1896 50  0000 L CNN
 F 1 "MountingHole" H 8850 1805 50  0000 L CNN
-F 2 "local:m4.5_hole" H 8750 1850 50  0001 C CNN
+F 2 "local:m2.4_hole_plated" H 8750 1850 50  0001 C CNN
 F 3 "~" H 8750 1850 50  0001 C CNN
 	1    8750 1850
 	1    0    0    -1  
@@ -1268,7 +1247,7 @@ U 1 1 60B11061
 P 8750 2050
 F 0 "H3" H 8850 2096 50  0000 L CNN
 F 1 "MountingHole" H 8850 2005 50  0000 L CNN
-F 2 "local:m4.5_hole" H 8750 2050 50  0001 C CNN
+F 2 "local:m2.4_hole_plated" H 8750 2050 50  0001 C CNN
 F 3 "~" H 8750 2050 50  0001 C CNN
 	1    8750 2050
 	1    0    0    -1  
@@ -1279,7 +1258,7 @@ U 1 1 60B151A4
 P 8750 2250
 F 0 "H4" H 8850 2296 50  0000 L CNN
 F 1 "MountingHole" H 8850 2205 50  0000 L CNN
-F 2 "local:m4.5_hole" H 8750 2250 50  0001 C CNN
+F 2 "local:m2.4_hole_plated" H 8750 2250 50  0001 C CNN
 F 3 "~" H 8750 2250 50  0001 C CNN
 	1    8750 2250
 	1    0    0    -1  
@@ -1399,4 +1378,106 @@ col6
 Text HLabel 9950 5100 2    50   Input ~ 0
 row3
 NoConn ~ 9950 4800
+$Comp
+L Switch:SW_Push SW41
+U 1 1 609871D1
+P 6600 6500
+F 0 "SW41" H 6600 6300 50  0000 C CNN
+F 1 "SW_Push" H 6600 6400 50  0000 C CNN
+F 2 "keyswitches:SW_MX_reversible" H 6600 6700 50  0001 C CNN
+F 3 "~" H 6600 6700 50  0001 C CNN
+	1    6600 6500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7350 5700 7300 5700
+Connection ~ 6400 6500
+Wire Wire Line
+	5600 6150 6000 6150
+Wire Wire Line
+	6800 6150 6800 6500
+Connection ~ 6000 6150
+Wire Wire Line
+	6000 6150 6800 6150
+Wire Wire Line
+	6000 6150 6000 6500
+Wire Wire Line
+	6900 6800 6900 6000
+Wire Wire Line
+	6400 6800 6900 6800
+Wire Wire Line
+	7350 5700 7350 6950
+$Comp
+L Device:Rotary_Encoder_Switch SW42
+U 1 1 60A32CBC
+P 2600 6400
+F 0 "SW42" H 2600 6767 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 2600 6676 50  0000 C CNN
+F 2 "local:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 2450 6560 50  0001 C CNN
+F 3 "~" H 2600 6660 50  0001 C CNN
+	1    2600 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 6500 3250 6550
+Wire Wire Line
+	1150 6650 3550 6650
+Wire Wire Line
+	3250 6500 3250 6400
+Wire Wire Line
+	3250 6400 3400 6400
+Wire Wire Line
+	3400 6400 3400 6350
+Connection ~ 3250 6500
+Wire Wire Line
+	3550 6550 3550 6650
+Connection ~ 3550 6650
+Wire Wire Line
+	3550 6650 4050 6650
+Text HLabel 1500 6500 0    50   Input ~ 0
+re0
+Text HLabel 1500 6300 0    50   Input ~ 0
+re1
+$Comp
+L power:GND #PWR0107
+U 1 1 60A9D274
+P 1500 6400
+F 0 "#PWR0107" H 1500 6150 50  0001 C CNN
+F 1 "GND" V 1505 6272 50  0000 R CNN
+F 2 "" H 1500 6400 50  0001 C CNN
+F 3 "" H 1500 6400 50  0001 C CNN
+	1    1500 6400
+	0    1    1    0   
+$EndComp
+Text HLabel 9950 4900 2    50   Input ~ 0
+re0
+Text HLabel 9950 5000 2    50   Input ~ 0
+re1
+Wire Wire Line
+	2300 6300 1500 6300
+Wire Wire Line
+	2300 6500 1500 6500
+Wire Wire Line
+	2300 6400 1500 6400
+Wire Wire Line
+	3000 5700 3000 6350
+Wire Wire Line
+	2950 6500 2950 6300
+Wire Wire Line
+	2950 6300 2900 6300
+Wire Wire Line
+	2950 6500 3250 6500
+Wire Wire Line
+	2900 6500 2900 6550
+Wire Wire Line
+	2900 6550 3000 6550
+Wire Wire Line
+	3000 6550 3000 6350
+Connection ~ 3000 6350
+Wire Wire Line
+	2350 6200 2250 6200
+Wire Wire Line
+	2250 6200 2250 6950
+Wire Wire Line
+	2250 6950 7350 6950
 $EndSCHEMATC

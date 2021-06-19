@@ -1,0 +1,9 @@
+(module m2.4_hole_plated (layer F.Cu) (tedit 609CDB97)
+  (fp_text reference REF** (at 0 3.81 180) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value m2.4_hole_plated (at 0 -3.81) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 3.4 3.4) (drill 2.4) (layers *.Cu *.Mask))
+)
