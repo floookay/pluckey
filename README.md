@@ -1,6 +1,6 @@
 ![plucky_logo](./assets/pluckey_logo.png)
 
-the plucky is an ergodox like split keyboard with more pronounced columnal stagger and a vertical space key.  
+The plucky is an ergodox like split keyboard with moderate columnal stagger and a horizontal space key.  
 I took inspiration from splitkbs Kyria and bishborias Ergodox design.
 
 ![sunny picture](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/4c37d31cb414b9a7709810434a3b68f4b9b9c0dc/skeleton%2520sunshine.jpg)
