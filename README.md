@@ -81,7 +81,7 @@ After you soldered the PCB you can assemble the case. At first you're going to h
 ![skeleton](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/4c37d31cb414b9a7709810434a3b68f4b9b9c0dc/skeleton%2520raw.jpg)  
 The skeleton case is a simple open case for the pluckey pcb.  
 The FreeCAD models are included in case you want to adjust the angle for example.  
-All you need to do to assemble this case is to clip in the PCB.
+All you need to do to assemble this case is to clip in the PCB. All you need to do to assemble this case is to clip in the PCB. If you're using encoders you'll have to cut the pins flush.
 
 <details>
 <summary>more pictures</summary>
