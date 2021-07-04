@@ -5,7 +5,7 @@ I took inspiration from splitkbs Kyria and bishborias Ergodox design.
 
 ![sunny picture](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/4c37d31cb414b9a7709810434a3b68f4b9b9c0dc/skeleton%2520sunshine.jpg)
 
-## layouts
+## layout
 
 The following physical layouts are supported:  
 ![supported layouts](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/0a37fe682f76bbaa55cbc56527e4666bedbf5761/layout%2520possiblities.png)  
