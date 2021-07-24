@@ -1,6 +1,6 @@
-![plucky_logo](./assets/pluckey_logo.png)
+![pluckey_logo](./assets/pluckey_logo.png)
 
-the plucky is an ergodox like split keyboard with more pronounced columnal stagger and a vertical space key.  
+the pluckey is an ergodox like split keyboard with more pronounced columnal stagger and a vertical space key.  
 I took inspiration from splitkbs Kyria and bishborias Ergodox design.
 
 ![sunny picture](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/4c37d31cb414b9a7709810434a3b68f4b9b9c0dc/skeleton%2520sunshine.jpg)
@@ -96,7 +96,7 @@ All you need to do to assemble this case is to clip in the PCB.
 ### sandwich
 
 ![sandwich]()  
-The sandwich case is a laser cut acrylic case for the plucky pcb from 3mm thick layers.
+The sandwich case is a laser cut acrylic case for the pluckey pcb from 3mm thick layers.
 I also built this with FreeCAD so feel free to adjust. The kerf of the files is set to 0.2mm so you might need to adjust that.
 
 | amount | part                 |
