@@ -106,7 +106,7 @@ flash QMK from my fork [floookay/qmk_firmware](https://github.com/floookay/qmk_f
 
 > What where your goals behind designing this keyboard?
 
-One thing I wanted to improve/avoid were keys that needed to be stabilized but at the same time have a wider space keys to rest my thumbs on.
+One thing I wanted to improve/avoid were keys that needed to be stabilized but at the same time have wider space keys to rest my thumbs on.
 
 Another thing I wanted to achieve with this design was to be fairly flexible in terms of keycaps that can be used.  
 Personally, I like the wider ergodox style modifier keys but keycap compability is unfortunatelly not that great beyond blank uniform caps.  
@@ -114,7 +114,7 @@ That's why I made the PCB compatible with all 1u keycaps that are offered in ort
 
 > What's next?
 
-An acrylic sandwich-style case variants.  
+An acrylic sandwich-style case variant.  
 I'm also thinking about making a pcb variant for low profile Choc switches with choc spacing.
 
 > What's the story behind the name?
