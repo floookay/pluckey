@@ -99,14 +99,12 @@ All you need to do to assemble this case is to clip in the PCB.
 The sandwich case is a laser cut acrylic case for the pluckey pcb from 3mm thick layers.
 I also built this with FreeCAD so feel free to adjust. The kerf of the files is set to 0.2mm so you might need to adjust that.
 
-| amount | part                 |
-|--------|----------------------|
-| 22     | M2 12mm screws       |
-| 10     | M2 6mm screws        |
-| 10     | M2 12mm spacers      |
-| 6      | M2 15mm spacers      |
-| 4      | diode legs           |
-| 8+     | rubber feet          |
+| amount | part                                            |
+|--------|-------------------------------------------------|
+| 32     | M2 5+mm screws                                  |
+| 1      | set of cylindrical M2 standoffs (male + female) |
+| 4      | diode legs                                      |
+| 8+     | rubber feet                                     |
 
 **assembly:**  
 After you soldered the components to the PCB you can start soldering the switches with the plate in between. If you want to use a rotary encoder you'll have to enlargen the hole slightly with a dremel to fit its legs. As this is a 3mm plate I like to put small strips of cellular rubber vertically along the columns between the pcb and plate next to the switches. This prevents the switches from popping out of the plate. After you soldered the plate you can put screws in the top layer and gradually add the other layers, spacers and diode legs as soon as they fit. Lastly add the rubber feet, make sure that you place them at the same distance from the edge of each step.
