@@ -95,7 +95,7 @@ All you need to do to assemble this case is to clip in the PCB.
 
 ### sandwich
 
-![sandwich]()  
+![sandwich](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/1757078b1adf7ac4d51d74f445107bdb46e013a3/sandwich%2520money%2520shot.jpg)  
 The sandwich case is a laser cut acrylic case for the pluckey pcb from 3mm thick layers.
 I also built this with FreeCAD so feel free to adjust. The kerf of the files is set to 0.2mm so you might need to adjust that.
 
@@ -107,14 +107,15 @@ I also built this with FreeCAD so feel free to adjust. The kerf of the files is 
 | 8+     | rubber feet                                     |
 
 **assembly:**  
-After you soldered the components to the PCB you can start soldering the switches with the plate in between. If you want to use a rotary encoder you'll have to enlargen the hole slightly with a dremel to fit its legs. As this is a 3mm plate I like to put small strips of cellular rubber vertically along the columns between the pcb and plate next to the switches. This prevents the switches from popping out of the plate. After you soldered the plate you can put screws in the top layer and gradually add the other layers, spacers and diode legs as soon as they fit. Lastly add the rubber feet, make sure that you place them at the same distance from the edge of each step.
+After you soldered the components to the PCB you can start soldering the switches with the plate in between. If you want to use a rotary encoder you'll have to enlargen the hole slightly with a dremel to fit its legs. As this is a 3mm plate I like to put small strips of cellular rubber vertically along the columns between the pcb and plate next to the switches. This prevents the switches from popping out of the plate. After you soldered the plate you can put screws in the top layer and gradually add the other layers, spacers and diode legs as soon as they fit. Use the male and female standoffs to create larger larger standoffs that fit each hole height (for the exact length opne „more pictures“). Lastly add the rubber feet, make sure that you place them at the same distance from the edge of each step.
 
 <details>
 <summary>more pictures</summary>
 
-![]()  
-![]()  
-![]()  
+![side profile](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/1757078b1adf7ac4d51d74f445107bdb46e013a3/sandwich%2520side%2520profile.jpg)  
+![backside](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/1757078b1adf7ac4d51d74f445107bdb46e013a3/sandwich%2520backside.jpg)  
+![freecad model](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/1757078b1adf7ac4d51d74f445107bdb46e013a3/sandwich%2520render.png)  
+![standoff lengths](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/1757078b1adf7ac4d51d74f445107bdb46e013a3/sandwich%2520spacer%2520sizes.png)  
 </details>
 <br>
 
