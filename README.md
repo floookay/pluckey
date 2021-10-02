@@ -1,6 +1,7 @@
-![plucky_logo](./assets/pluckey_logo.png)
+![pluckey_logo](./assets/pluckey_logo.png)
 
-The plucky is an ergodox like split keyboard with moderate columnal stagger and a horizontal space key.  
+the pluckey is an ergodox like split keyboard with more pronounced columnal stagger and a vertical space key.  
+
 I took inspiration from splitkbs Kyria and bishborias Ergodox design.
 
 ![sunny picture](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/4c37d31cb414b9a7709810434a3b68f4b9b9c0dc/skeleton%2520sunshine.jpg)
@@ -61,9 +62,10 @@ In order to assemble the case you'll need the following additional hardware:
 |--------|----------------------|
 | 8      | M2 4mm screws        |
 | 8      | M2 4mm spacers       |
+| 8+     | rubber feet          |
 
 **assembly:**  
-After you soldered the PCB you can assemble the case. At first you're going to have to merge the spacers with the posts of the case. To do this heat up your soldering iron, position a spacer with a tweezer and press the spacer down with the tip of your soldering iron (make sure it's clean before this step). Do this with the other spacers, align the plate and pcb and fixate it with the screws.
+After you soldered the PCB you can assemble the case. At first you're going to have to merge the spacers with the posts of the case. To do this heat up your soldering iron, position a spacer with a tweezer and press the spacer down with the tip of your soldering iron (make sure it's clean before this step). Do this with the other spacers, align the plate and pcb and fixate it with the screws. Lastly you can add the rubber feet according to your liking.
 
 <details>
 <summary>more pictures</summary>
@@ -92,6 +94,32 @@ All you need to do to assemble this case is to clip in the PCB. All you need to 
 </details>
 <br>
 
+### sandwich
+
+![sandwich](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/1757078b1adf7ac4d51d74f445107bdb46e013a3/sandwich%2520money%2520shot.jpg)  
+The sandwich case is a laser cut acrylic case for the pluckey pcb from 3mm thick layers.
+I also built this with FreeCAD so feel free to adjust. The kerf of the files is set to 0.2mm so you might need to adjust that.
+
+| amount | part                                            |
+|--------|-------------------------------------------------|
+| 32     | M2 5+mm screws                                  |
+| 1      | set of cylindrical M2 standoffs (male + female) |
+| 4      | diode legs                                      |
+| 8+     | rubber feet                                     |
+
+**assembly:**  
+After you soldered the components to the PCB you can start soldering the switches with the plate in between. If you want to use a rotary encoder you'll have to enlargen the hole slightly with a dremel to fit its legs. As this is a 3mm plate I like to put small strips of cellular rubber vertically along the columns between the pcb and plate next to the switches. This prevents the switches from popping out of the plate. After you soldered the plate you can put screws in the top layer and gradually add the other layers, spacers and diode legs as soon as they fit. Use the male and female standoffs to create larger larger standoffs that fit each hole height (for the exact length opne „more pictures“). Lastly add the rubber feet, make sure that you place them at the same distance from the edge of each step.
+
+<details>
+<summary>more pictures</summary>
+
+![side profile](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/1757078b1adf7ac4d51d74f445107bdb46e013a3/sandwich%2520side%2520profile.jpg)  
+![backside](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/1757078b1adf7ac4d51d74f445107bdb46e013a3/sandwich%2520backside.jpg)  
+![freecad model](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/1757078b1adf7ac4d51d74f445107bdb46e013a3/sandwich%2520render.png)  
+![standoff lengths](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/1757078b1adf7ac4d51d74f445107bdb46e013a3/sandwich%2520spacer%2520sizes.png)  
+</details>
+<br>
+
 ## plate
 
 If you want to print and use a plate I'd suggest you print the tolerance tester first (and maybe decrease the tolerances a bit).  
@@ -114,7 +142,7 @@ That's why I made the PCB compatible with all 1u keycaps that are offered in ort
 
 > What's next?
 
-An acrylic sandwich-style case variant.  
+~~An acrylic sandwich-style case variants.~~  
 I'm also thinking about making a pcb variant for low profile Choc switches with choc spacing.
 
 > What's the story behind the name?
