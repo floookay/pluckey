@@ -1,11 +1,12 @@
 ![pluckey_logo](./assets/pluckey_logo.png)
 
 the pluckey is an ergodox like split keyboard with more pronounced columnal stagger and a vertical space key.  
+
 I took inspiration from splitkbs Kyria and bishborias Ergodox design.
 
 ![sunny picture](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/4c37d31cb414b9a7709810434a3b68f4b9b9c0dc/skeleton%2520sunshine.jpg)
 
-## layouts
+## layout
 
 The following physical layouts are supported:  
 ![supported layouts](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/0a37fe682f76bbaa55cbc56527e4666bedbf5761/layout%2520possiblities.png)  
@@ -69,7 +70,7 @@ After you soldered the PCB you can assemble the case. At first you're going to h
 <details>
 <summary>more pictures</summary>
 
-![inside](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/4c37d31cb414b9a7709810434a3b68f4b9b9c0dc/pcb_rev1.1_backside.jpg)  
+![inside](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/7f041ae9f5dfb2b95120871c1e2e58ef65b90ba4/monolith.png)  
 ![usage position](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/7f041ae9f5dfb2b95120871c1e2e58ef65b90ba4/monolith%2520positioned.jpg)  
 ![closeup](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/7f041ae9f5dfb2b95120871c1e2e58ef65b90ba4/monolith%2520left%2520top.jpg)  
 ![backside](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/7f041ae9f5dfb2b95120871c1e2e58ef65b90ba4/monolith%2520left%2520back.jpg)  
@@ -82,7 +83,7 @@ After you soldered the PCB you can assemble the case. At first you're going to h
 ![skeleton](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/4c37d31cb414b9a7709810434a3b68f4b9b9c0dc/skeleton%2520raw.jpg)  
 The skeleton case is a simple open case for the pluckey pcb.  
 The FreeCAD models are included in case you want to adjust the angle for example.  
-All you need to do to assemble this case is to clip in the PCB.
+All you need to do to assemble this case is to clip in the PCB. All you need to do to assemble this case is to clip in the PCB. If you're using encoders you'll have to cut the pins flush.
 
 <details>
 <summary>more pictures</summary>
@@ -133,7 +134,7 @@ flash QMK from my fork [floookay/qmk_firmware](https://github.com/floookay/qmk_f
 
 > What where your goals behind designing this keyboard?
 
-One thing I wanted to improve/avoid were keys that needed to be stabilized but at the same time have a wider space keys to rest my thumbs on.
+One thing I wanted to improve/avoid were keys that needed to be stabilized but at the same time have wider space keys to rest my thumbs on.
 
 Another thing I wanted to achieve with this design was to be fairly flexible in terms of keycaps that can be used.  
 Personally, I like the wider ergodox style modifier keys but keycap compability is unfortunatelly not that great beyond blank uniform caps.  
