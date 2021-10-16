@@ -127,8 +127,15 @@ After you know the right margin for your printer you can adjust it in the plate 
 
 ## firmware
 
-flash QMK from my fork [floookay/qmk_firmware](https://github.com/floookay/qmk_firmware/tree/pluckey)  
-*&rarr; I'll add it to the official repo soon™ (once I'm fully done)*
+[QMK firmware](https://github.com/floookay/qmk_firmware/tree/master/keyboards/pluckey)
+
+Compiling the keyboard (after setting up your build environment):
+
+    make pluckey:default
+
+Flashing the firmware:
+
+    make pluckey:default:flash
 
 ## misc
 
@@ -143,7 +150,7 @@ That's why I made the PCB compatible with all 1u keycaps that are offered in ort
 > What's next?
 
 ~~An acrylic sandwich-style case variants.~~  
-I'm also thinking about making a pcb variant for low profile Choc switches with choc spacing.
+I'm also thinking about making a pcb variant for low profile Choc switches with choc spacing.  
 
 > What's the story behind the name?
 
