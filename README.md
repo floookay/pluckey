@@ -4,7 +4,7 @@ the pluckey is an ergodox like split keyboard with more pronounced columnal stag
 
 I took inspiration from splitkbs Kyria and bishborias Ergodox design.
 
-![sunny picture](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/4c37d31cb414b9a7709810434a3b68f4b9b9c0dc/skeleton%2520sunshine.jpg)
+![posterboy](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/2ac29035cc20551b04b09d74ca7e855787515b8f/pluckey%2520posterboy.jpg)
 
 ## layout
 
@@ -114,7 +114,7 @@ After you soldered the components to the PCB you can start soldering the switche
 <summary>more pictures</summary>
 
 ![side profile](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/1757078b1adf7ac4d51d74f445107bdb46e013a3/sandwich%2520side%2520profile.jpg)  
-![backside](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/1757078b1adf7ac4d51d74f445107bdb46e013a3/sandwich%2520backside.jpg)  
+![backside](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/2ac29035cc20551b04b09d74ca7e855787515b8f/pluckey%2520sandwich%2520showcase.jpg)  
 ![freecad model](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/1757078b1adf7ac4d51d74f445107bdb46e013a3/sandwich%2520render.png)  
 ![standoff lengths](https://gist.githubusercontent.com/floookay/ea7313862e407c9b5aaea3d6ed3ce233/raw/1757078b1adf7ac4d51d74f445107bdb46e013a3/sandwich%2520spacer%2520sizes.png)  
 </details>
